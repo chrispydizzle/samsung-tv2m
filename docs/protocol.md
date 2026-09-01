@@ -17,7 +17,8 @@ sequenceDiagram
     App->>TV: VERSION MCCP/1.1
     App->>WFD: MediaPlayer.setDataSource(wfd://...)
     WFD->>TV: RTSP/WFD capability exchange :7236
-    WFD<->>TV: HDCP 2.1 key exchange
+    WFD->>TV: Start HDCP 2.1 authentication
+    TV-->>WFD: Complete HDCP 2.1 key exchange
     WFD->>TV: SETUP and PLAY
     TV-->>WFD: Encrypted MPEG-TS over RTP
     WFD-->>App: Render through secure SurfaceView
