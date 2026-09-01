@@ -1,0 +1,12 @@
+.env
+*.local.json
+*.log
+*.apk
+*.aab
+*.jks
+*.keystore
+
+android/**/build/
+artifacts/
+captures/
+vendor/
