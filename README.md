@@ -18,11 +18,12 @@ firmware must provide a hardware-backed Wi-Fi Display sink, such as Samsung's
 
 Validated:
 
+- Samsung UN75MU8000 (2017 MU series): supported TV source
 - Samsung Galaxy S7 Edge, Android 8: supported
 - Google Pixel 10 Pro XL, Android 17: unsupported on stock firmware
 
-See [docs/compatibility.md](docs/compatibility.md) for the evidence and device
-qualification checklist.
+See [docs/compatibility.md](docs/compatibility.md) for the TV-generation
+estimates, evidence, and Android device qualification checklist.
 
 ## Prerequisites
 
